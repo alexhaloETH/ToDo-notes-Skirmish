@@ -131,7 +131,7 @@ Other usefull links related to this project:
 | :green_circle: |Show all availabe games|  |
 | :green_circle: |Basics of matchmaking and player made lobbies|  |
 | :green_circle: |Webhook to discord to be used as a database|  |
-| :red_circle: |Send webhooks to discord on starting lobby and joining lobby|  |
+| :orange_circle: |Send webhooks to discord on starting lobby and joining lobby|  |
 | :green_circle: |Pop up error UI|  |
 | :green_circle: |Sorting algos for the various menus|  |
 |  ******  | ****** |  ******  |
