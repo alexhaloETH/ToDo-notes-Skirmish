@@ -117,6 +117,7 @@ Other usefull links related to this project:
 | :black_circle: |Autoconnect on game startup if server is available |  |
 | :large_blue_circle: |Offline scene finished|  |
 | :green_circle: |Receive address data on connect|  |
+| 🔴: |change from the playerprefs or put ifend regions int he code |  |
 | :large_blue_circle: |Main util script to be accessed from everywhere|  |
 | :green_circle: |Check if two of the same players exist in the server if so kick|  |
 |  ******  | ****** |  ******  |
