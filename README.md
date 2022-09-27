@@ -134,6 +134,7 @@ Other usefull links related to this project:
 | :orange_circle: |Send webhooks to discord on starting lobby and joining lobby|  |
 | :green_circle: |Pop up error UI|  |
 | :green_circle: |Sorting algos for the various menus|  |
+| :red_circle: |Basic all roudn progression checks|  |
 |  ******  | ****** |  ******  |
 | :green_circle: |Basics of RealmsUI |  |
 | :green_circle: |Basics of troopsUI|  |
