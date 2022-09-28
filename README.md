@@ -153,7 +153,7 @@ Other usefull links related to this project:
 | 🔴 |Connect the skirmish main contract to the game |  |
 | ⚫ |Only allowed to start the game after both players are ready|  |
 | 🔵 |Turn based functionality setup|  |
-| 🟠 |Once the game starts send data to server so both clients can communicate|  |
+| 🔵 |Once the game starts send data to server so both clients can communicate|  |
 | 🔴 |Once a player places a card replicate action on the other client|  |
 | 🔴 |Prohibit client from interacting with the other client's card|  |
 | 🔴 |Add basic game score mechanic |  |
