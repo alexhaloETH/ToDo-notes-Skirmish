@@ -148,7 +148,7 @@ Other usefull links related to this project:
 | 🔴 |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
 |  ******  | ****** |  ******  |
 | 🔴 |function to update the player ont he server side with the client side data|  |
-| 🔴 |categorize game state|  |
+| 🔴 |divide the game into different states/rounds|  |
 | 🟢 |Fix the names so they show in the lobby|  |
 | 🔴 |Connect the skirmish main contract to the game |  |
 | ⚫ |Only allowed to start the game after both players are ready|  |
