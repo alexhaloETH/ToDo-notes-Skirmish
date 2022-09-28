@@ -144,6 +144,7 @@ Other usefull links related to this project:
 | 🟢 |Able to select the realms by looking for their ID|  |
 | 🔵 |Player is able to make its team and save it to be then used in game|  |
 | 🔴 |Receive data from NFT|  |
+| 🔴 |Lobby exists until the original host goes|  |
 | 🔴 |Write data to Database account troops contract|  |
 | 🔴 |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
 |  ******  | ****** |  ******  |
