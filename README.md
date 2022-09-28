@@ -5,20 +5,20 @@
 
 
 
-:green_circle: --- Done<br/>
-:red_circle: --- Not done<br/>
-:orange_circle: --- Half way done<br/>
-:large_blue_circle: --- Getting close to finishing<br/><br/>
+🟢 --- Done<br/>
+🔴 --- Not done<br/>
+🟠 --- Half way done<br/>
+🔵 --- Getting close to finishing<br/><br/>
 
 
-:purple_circle: --- Error or major issue present <br/>
-:black_circle: --- Probably impossible to do or most likely going to change <br/>
+🟣 --- Error or major issue present <br/>
+⚫ --- Probably impossible to do or most likely going to change <br/>
 
 <br/>
 
 ### SKIRMISH COMPONENTS
 <br/><br/>
------------------------------------ CAIRO CONTRACTS (Last full code clean up and commenting 25/06/22) --------------------------------------
+----------------------------------- CAIRO CONTRACTS (Last full code clean up and commenting 25/06/22) ALL TO REDO --------------------------------------
 <br/>
 Test token for pay transactions: 0x03e41c33cfb4081c8a40f08bc61d7b62396485587415b967e1dc295a156d03e9
 <br/><br/>
@@ -31,20 +31,20 @@ Main contract of the game
 
 | Status      | Tested      | Function    | Type        | Description   |     
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| :green_circle: |   :green_circle:   | SetTokenAddress  |   @external    |  Set the token address to be payed with
-| :green_circle: |   :green_circle:   | SetFee |   @external    |  Set the fee the contract takes when the game ends
-| :green_circle: |   :green_circle:   | SetSNSCost  |   @external    |  Set the cost to make an SNS,  times by 10**18
-| :green_circle: |   :green_circle:   | SetSNS  |   @external    |  Set the SNS of the calling address
-| :green_circle: |  :red_circle: | WithdrawToken  |   @external    | Withdraw tokens from the contract
-| :green_circle: |  :red_circle: | GameLobbyStart  |   @external    |  Function called on the start of the lobby by the "host". pays wager into contract
-| :green_circle: |  :red_circle: | GameLobbyJoin  |   @external    |  Function called by the joiner. pays wager into contract
-| :green_circle: |  :red_circle: | GameOutcome  |   @external    |  Action depending on outcome of the game
-| :green_circle: |   :green_circle:   | GetSNSFromAddress  |   @view    |  Given an SNS(felt) return the holder's address. Return 0 if not held
-| :green_circle: |   :green_circle:   | GetAddressFromSNS  |   @view    |  Given an Address return the SNS associated. Return 0 if available
-| :green_circle: |   :green_circle:   | GetAcceptedTokenAddress  |   @view    |  Return the Address of the ERC20 token accepted for payments  
-| :green_circle: |   :green_circle:   | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 
-| :green_circle: |   :red_circle:   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)
-| :red_circle: |  :red_circle:  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager
+| 🟢 |  🟢    | SetTokenAddress  |   @external    |  Set the token address to be payed with
+| 🟢 |  🟢  | SetFee |   @external    |  Set the fee the contract takes when the game ends
+| 🟢 |   🟢   | SetSNSCost  |   @external    |  Set the cost to make an SNS,  times by 10**18
+|  🟢|  🟢   | SetSNS  |   @external    |  Set the SNS of the calling address
+| 🟢 |  🔴 | WithdrawToken  |   @external    | Withdraw tokens from the contract
+| 🟢 |  🔴 | GameLobbyStart  |   @external    |  Function called on the start of the lobby by the "host". pays wager into contract
+| 🟢 |  🔴 | GameLobbyJoin  |   @external    |  Function called by the joiner. pays wager into contract
+| 🟢 |  🔴 | GameOutcome  |   @external    |  Action depending on outcome of the game
+| 🟢 |  🟢   | GetSNSFromAddress  |   @view    |  Given an SNS(felt) return the holder's address. Return 0 if not held
+| 🟢 |   🟢  | GetAddressFromSNS  |   @view    |  Given an Address return the SNS associated. Return 0 if available
+| 🟢 |  🟢| GetAcceptedTokenAddress  |   @view    |  Return the Address of the ERC20 token accepted for payments  
+| 🟢 |   🟢  | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 
+| 🟢 |   🔴   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)
+| 🔴 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager
 <br/>
 
 
@@ -82,23 +82,23 @@ https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <
 
 | Progress    | Task        | Notes   |     
 | ----------- | ----------- | -----------   |
-| :green_circle: |Implement Unity and be able to call functions|    |
-| :black_circle: |Full screen on Unity startup|    |
-| :green_circle: |Send transaction updates|    |
-| :green_circle: |Send address data on connect|    |
-| :purple_circle: |Block game if the wallet is not connected or account is switched|    |
-| :green_circle: |Connect argent wallet|    |
-| :purple_circle: |Connect braavos wallet|    |
-| :purple_circle: |Disconnect wallet voluntarily |    |
-| :orange_circle: |Turn array from cairo to json to be sent to unity for troops|    |
-| :green_circle: |Handle view functions|    |
-| :green_circle: |Handle uint256 values|    |
-| :green_circle: |Add token to wallet via code|    |
-| :green_circle: |Add Util script|    |
-| :red_circle: |Add contract 1|    |
-| :red_circle: |Add contract 2|    |
-| :red_circle: |Add contract 3|    |
-| :red_circle: |On contract 1 deduct fee for the contract to keep|    |
+| 🟢 |Implement Unity and be able to call functions|    |
+| ⚫ |Full screen on Unity startup|    |
+| 🟢 |Send transaction updates|    |
+| 🟢 |Send address data on connect|    |
+| 🟣 |Block game if the wallet is not connected or account is switched|    |
+| 🟢 |Connect argent wallet|    |
+| 🟣|Connect braavos wallet|    |
+| 🟣 |Disconnect wallet voluntarily |    |
+| 🟠 |Turn array from cairo to json to be sent to unity for troops|    |
+| 🟢 |Handle view functions|    |
+|🟢  |Handle uint256 values|    |
+| 🟢 |Add token to wallet via code|    |
+|🟢 |Add Util script|    |
+| 🔴 |Add contract 1|    |
+| 🔴 |Add contract 2|    |
+| 🔴|Add contract 3|    |
+| 🔴 |On contract 1 deduct fee for the contract to keep|    |
 
 
 <br/>
@@ -114,54 +114,54 @@ Other usefull links related to this project:
 
 | Progress    | Task        | Notes   |     
 | ----------- | ----------- | -----------   |
-| :black_circle: |Autoconnect on game startup if server is available |  |
-| :large_blue_circle: |Offline scene finished|  |
-| :green_circle: |Receive address data on connect|  |
+| ⚫ |Autoconnect on game startup if server is available |  |
+| 🔵 |Offline scene finished|  |
+| 🟢 |Receive address data on connect|  |
 | 🔴: |change from the playerprefs or put ifend regions int he code |  |
-| :large_blue_circle: |Main util script to be accessed from everywhere|  |
-| :green_circle: |Check if two of the same players exist in the server if so kick|  |
+| 🔵 |Main util script to be accessed from everywhere|  |
+| 🟢 |Check if two of the same players exist in the server if so kick|  |
 |  ******  | ****** |  ******  |
-| :green_circle: |Host game menu section|  |
-| :green_circle: |join game menu section|  |
-| :large_blue_circle: |Deck building menu section|  |
-| :green_circle: |Loading menu section|  |
-| :green_circle: |Setting menu section|  |
-| :orange_circle: |Contract view menu section|  |
-| :green_circle: |Receive transaction updates|  |
+| 🟢 |Host game menu section|  |
+| 🟢 |join game menu section|  |
+| 🔵 |Deck building menu section|  |
+| 🟢|Loading menu section|  |
+| 🟢 |Setting menu section|  |
+| 🟠|Contract view menu section|  |
+|🟢  |Receive transaction updates|  |
 | 90% |Finish the menu UI|  |
-| :green_circle: |Show all availabe games|  |
-| :green_circle: |Basics of matchmaking and player made lobbies|  |
-| :green_circle: |Webhook to discord to be used as a database|  |
-| :orange_circle: |Send webhooks to discord on starting lobby and joining lobby|  |
-| :green_circle: |Pop up error UI|  |
-| :green_circle: |Sorting algos for the various menus|  |
-| :red_circle: |Basic all roudn progression checks|  |
+| 🟢 |Show all availabe games|  |
+| 🟢 |Basics of matchmaking and player made lobbies|  |
+| 🟢 |Webhook to discord to be used as a database|  |
+| 🟠 |Send webhooks to discord on starting lobby and joining lobby|  |
+| 🟢 |Pop up error UI|  |
+| 🟢 |Sorting algos for the various menus|  |
+| 🔴 |Basic all roudn progression checks|  |
 |  ******  | ****** |  ******  |
-| :green_circle: |Basics of RealmsUI |  |
-| :green_circle: |Basics of troopsUI|  |
-| :orange_circle: |Basics of adventurerUI|  |
-| :large_blue_circle: |Tooltip on hover over units and realms|  |
-| :green_circle: |Able to select the realms by looking for their ID|  |
-| :large_blue_circle: |Player is able to make its team and save it to be then used in game|  |
-| :red_circle: |Receive data from NFT|  |
-| :red_circle: |Write data to Database account troops contract|  |
-| :red_circle: |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
+| 🟢 |Basics of RealmsUI |  |
+| 🟢 |Basics of troopsUI|  |
+| 🟠 |Basics of adventurerUI|  |
+| 🔵 |Tooltip on hover over units and realms|  |
+| 🟢 |Able to select the realms by looking for their ID|  |
+| 🔵 |Player is able to make its team and save it to be then used in game|  |
+| 🔴 |Receive data from NFT|  |
+| 🔴 |Write data to Database account troops contract|  |
+| 🔴 |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
 |  ******  | ****** |  ******  |
-| :red_circle: |function to update the player ont he server side with the client side data|  |
-| :red_circle: |categorize game state|  |
-| :green_circle: |Fix the names so they show in the lobby|  |
-|  :red_circle: |Connect the skirmish main contract to the game |  |
-| :black_circle: |Only allowed to start the game after both players are ready|  |
-| :large_blue_circle: |Turn based functionality setup|  |
-| :orange_circle: |Once the game starts send data to server so both clients can communicate|  |
-| :red_circle: |Once a player places a card replicate action on the other client|  |
-| :red_circle: |Prohibit client from interacting with the other client's card|  |
-| :red_circle: |Add basic game score mechanic |  |
-|  :red_circle:|Add basic server checks in the middle of moves to validate moves|  |
-| :red_circle: |Before the start of the game check the deck is valid|  |
-| :red_circle:  |Deal with the outcome of the match|  |
-| :orange_circle: |Deal with instances from either players disconnecting early or server failure|  |
-| :red_circle: |Deploy mock server on AWS|  |
+| 🔴 |function to update the player ont he server side with the client side data|  |
+| 🔴 |categorize game state|  |
+| 🟢 |Fix the names so they show in the lobby|  |
+| 🔴 |Connect the skirmish main contract to the game |  |
+| ⚫ |Only allowed to start the game after both players are ready|  |
+| 🔵 |Turn based functionality setup|  |
+| 🟠 |Once the game starts send data to server so both clients can communicate|  |
+| 🔴 |Once a player places a card replicate action on the other client|  |
+| 🔴 |Prohibit client from interacting with the other client's card|  |
+| 🔴 |Add basic game score mechanic |  |
+| 🔴 |Add basic server checks in the middle of moves to validate moves|  |
+| 🔴 |Before the start of the game check the deck is valid|  |
+| 🔴 |Deal with the outcome of the match|  |
+| 🟠 |Deal with instances from either players disconnecting early or server failure|  |
+| 🔴 |Deploy mock server on AWS|  |
 
 <br/>
 Additional Notes:<br/>
