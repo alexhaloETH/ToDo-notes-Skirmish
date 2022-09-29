@@ -83,21 +83,21 @@ https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <
 | Progress    | Task        | Notes   |     
 | ----------- | ----------- | -----------   |
 | 🟢 |Implement Unity and be able to call functions|    |
-| ⚫ |Full screen on Unity startup|    |
+| ⚫ |Full screen on Unity startup|  web.Js doesnt allow calls to  make applications full screen  |
 | 🟢 |Send transaction updates|    |
 | 🟢 |Send address data on connect|    |
-| 🟣 |Block game if the wallet is not connected or account is switched|    |
+| 🟣 |Block game if the wallet is not connected or account is switched|  contacted devs and they have opened a ticket  |
 | 🟢 |Connect argent wallet|    |
-| 🟣|Connect braavos wallet|    |
-| 🟣 |Disconnect wallet voluntarily |    |
+| 🟣 |Connect braavos wallet|  this is broken and probably wont be implemented in the final stage  |
+| 🟣 |Disconnect wallet voluntarily |  contacted devs and they have opened a ticket  |
 | 🟠 |Turn array from cairo to json to be sent to unity for troops|    |
 | 🟢 |Handle view functions|    |
-|🟢  |Handle uint256 values|    |
+| 🟢 |Handle uint256 values|    |
 | 🟢 |Add token to wallet via code|    |
-|🟢 |Add Util script|    |
+| 🟢 |Add Util script|    |
 | 🔴 |Add contract 1|    |
 | 🔴 |Add contract 2|    |
-| 🔴|Add contract 3|    |
+| 🔴 |Add contract 3|    |
 | 🔴 |On contract 1 deduct fee for the contract to keep|    |
 
 
@@ -114,53 +114,53 @@ Other usefull links related to this project:
 
 | Progress    | Task        | Notes   |     
 | ----------- | ----------- | -----------   |
-| ⚫ |Autoconnect on game startup if server is available |  |
+| ⚫ |Autoconnect on game startup if server is available | the first scene will be used as a landing page for the game/website so no autoconnect |
 | 🔵 |Offline scene finished|  |
 | 🟢 |Receive address data on connect|  |
-| 🔴: |change from the playerprefs or put ifend regions int he code |  |
+| 🔴 |change from the playerprefs or put ifend regions int he code | the way that saved data is stored in between scenes is not a permanent way, if anything use react backend to store data inbetween scenes |
 | 🔵 |Main util script to be accessed from everywhere|  |
 | 🟢 |Check if two of the same players exist in the server if so kick|  |
 |  ******  | ****** |  ******  |
 | 🟢 |Host game menu section|  |
 | 🟢 |join game menu section|  |
 | 🔵 |Deck building menu section|  |
-| 🟢|Loading menu section|  |
+| 🟢 |Loading menu section|  |
 | 🟢 |Setting menu section|  |
-| 🟠|Contract view menu section|  |
-|🟢  |Receive transaction updates|  |
-| 90% |Finish the menu UI|  |
+| 🟠 |Contract view menu section| this menu is a mess  |
+| 🟢 |Receive transaction updates|  |
+| 90% |Finish the menu UI| check the contract menu and have the final UI in place |
 | 🟢 |Show all availabe games|  |
 | 🟢 |Basics of matchmaking and player made lobbies|  |
 | 🟢 |Webhook to discord to be used as a database|  |
-| 🟠 |Send webhooks to discord on starting lobby and joining lobby|  |
+| 🟠 |Send webhooks to discord on starting lobby and joining lobby| all implemented in the Util script, just need to set up the lobby the correct way |
 | 🟢 |Pop up error UI|  |
 | 🟢 |Sorting algos for the various menus|  |
-| 🔴 |Basic all roudn progression checks|  |
+| 🔴 |Basic all roudn progression checks| example: the player is able to join a lobby without selecting a team, should not be allowed |
 |  ******  | ****** |  ******  |
 | 🟢 |Basics of RealmsUI |  |
 | 🟢 |Basics of troopsUI|  |
 | 🟠 |Basics of adventurerUI|  |
-| 🔵 |Tooltip on hover over units and realms|  |
+| 🔵 |Tooltip on hover over units and realms| core logic is done just needs to be implemented everywhere |
 | 🟢 |Able to select the realms by looking for their ID|  |
-| 🔵 |Player is able to make its team and save it to be then used in game|  |
+| 🔵 |Player is able to make its team and save it to be then used in game| if the player goes back into the deckmenu there are errors, probably issues with references |
 | 🔴 |Receive data from NFT|  |
 | 🔴 |Lobby exists until the original host goes|  |
 | 🔴 |Write data to Database account troops contract|  |
 | 🔴 |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
 |  ******  | ****** |  ******  |
-| 🔵 |function to update the player ont he server side with the client side data|  |
+| 🔵 |function to update the player ont he server side with the client side data| use the specific targetRPC example to improve on the efficiency of the server calls |
 | 🔴 |divide the game into different states/rounds|  |
 | 🟢 |Fix the names so they show in the lobby|  |
 | 🔴 |Connect the skirmish main contract to the game |  |
 | ⚫ |Only allowed to start the game after both players are ready|  |
-| 🔵 |Turn based functionality setup|  |
-| 🔵 |Once the game starts send data to server so both clients can communicate|  |
+| 🔵 |Turn based functionality setup| there but not implemented with the card placing  |
+| 🔵 |Once the game starts send data to server so both clients can communicate| this is implemented but for now only works with a button, should be called at the start of the scene |
 | 🔵 |Once a player places a card replicate action on the other client| cards do appear on the other client but issue thrown, something along the lines of missing reference and its not turn based yet |
 | 🔵 |Prohibit client from interacting with the other client's card| should be implemented but not tested |
 | 🟠 |Add basic game score mechanic | score mechanic is there but for some reason only works on the first call, probable issue with the detection of child objects |
-| 🔴 |Add basic server checks in the middle of moves to validate moves|  |
-| 🔴 |Before the start of the game check the deck is valid|  |
-| 🔴 |Deal with the outcome of the match|  |
+| 🟠 |Add basic server checks in the middle of moves to validate moves| previous states of the deck and possible cards are all stored in the turnmanager, just need to call it to compare so no "added" cards via exploits are possible |
+| 🔴 |Before the start of the game check the deck is valid| same as above  ^^^^^^^^^^^^^^^^^^^ |
+| 🔴 |Deal with the outcome of the match| there are no turns states implemented yet |
 | 🟠 |Deal with instances from either players disconnecting early or server failure|  |
 | 🔴 |Deploy mock server on AWS|  |
 
