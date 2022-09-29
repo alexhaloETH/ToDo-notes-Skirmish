@@ -155,9 +155,9 @@ Other usefull links related to this project:
 | ⚫ |Only allowed to start the game after both players are ready|  |
 | 🔵 |Turn based functionality setup|  |
 | 🔵 |Once the game starts send data to server so both clients can communicate|  |
-| 🔵 |Once a player places a card replicate action on the other client|  |
-| 🔵 |Prohibit client from interacting with the other client's card|  |
-|  🟠|Add basic game score mechanic |  |
+| 🔵 |Once a player places a card replicate action on the other client| cards do appear on the other client but issue thrown, something along the lines of missing reference and its not turn based yet |
+| 🔵 |Prohibit client from interacting with the other client's card| should be implemented but not tested |
+| 🟠 |Add basic game score mechanic | score mechanic is there but for some reason only works on the first call, probable issue with the detection of child objects |
 | 🔴 |Add basic server checks in the middle of moves to validate moves|  |
 | 🔴 |Before the start of the game check the deck is valid|  |
 | 🔴 |Deal with the outcome of the match|  |
