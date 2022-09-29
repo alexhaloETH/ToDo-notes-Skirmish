@@ -128,7 +128,7 @@ Other usefull links related to this project:
 | 🟢 |Setting menu section|  |
 | 🟠 |Contract view menu section| this menu is a mess  |
 | 🟢 |Receive transaction updates|  |
-| 90% |Finish the menu UI| check the contract menu and have the final UI in place |
+| 🔵 |Finish the menu UI| check the contract menu and have the final UI in place |
 | 🟢 |Show all availabe games|  |
 | 🟢 |Basics of matchmaking and player made lobbies|  |
 | 🟢 |Webhook to discord to be used as a database|  |
