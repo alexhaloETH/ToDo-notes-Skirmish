@@ -148,16 +148,16 @@ Other usefull links related to this project:
 | 🔴 |Write data to Database account troops contract|  |
 | 🔴 |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
 |  ******  | ****** |  ******  |
-| 🔴 |function to update the player ont he server side with the client side data|  |
+| 🔵 |function to update the player ont he server side with the client side data|  |
 | 🔴 |divide the game into different states/rounds|  |
 | 🟢 |Fix the names so they show in the lobby|  |
 | 🔴 |Connect the skirmish main contract to the game |  |
 | ⚫ |Only allowed to start the game after both players are ready|  |
 | 🔵 |Turn based functionality setup|  |
 | 🔵 |Once the game starts send data to server so both clients can communicate|  |
-| 🔴 |Once a player places a card replicate action on the other client|  |
-| 🔴 |Prohibit client from interacting with the other client's card|  |
-| 🔴 |Add basic game score mechanic |  |
+| 🔵 |Once a player places a card replicate action on the other client|  |
+| 🔵 |Prohibit client from interacting with the other client's card|  |
+|  🟠|Add basic game score mechanic |  |
 | 🔴 |Add basic server checks in the middle of moves to validate moves|  |
 | 🔴 |Before the start of the game check the deck is valid|  |
 | 🔴 |Deal with the outcome of the match|  |
