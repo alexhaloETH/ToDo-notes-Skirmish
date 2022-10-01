@@ -90,7 +90,7 @@ https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <
 | 🟢 |Send address data on connect|    |
 | 🟣 |Block game if the wallet is not connected or account is switched|  contacted devs and they have opened a ticket  |
 | 🟢 |Connect argent wallet|    |
-| 🟣 |Connect braavos wallet|  this is broken and probably wont be implemented in the final stage  |
+| 🟣⚫ |Connect braavos wallet|  this is broken and probably wont be implemented in the final stage  |
 | 🟣 |Disconnect wallet voluntarily |  contacted devs and they have opened a ticket  |
 | 🟠 |Turn array from cairo to json to be sent to unity for troops|    |
 | 🟢 |Handle view functions|    |
