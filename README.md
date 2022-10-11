@@ -77,9 +77,7 @@ Contract used as onchain database, when the player decideds its team it will be 
 Additional Notes:  <br/>
 Need to add all of the owner stuff and the asserts        <br/>
 Look into Account abstraction <br/>
-When modifying multiple realms instead of doing one trans per realms do one big transaction, maybe implement bitmanip function <br/>
 Look into events      
-There is an oversight on how to deal with the actual outcome of the game, there is nothing stopping the player from just going to the voyager and using the external func there                <br/>
 look into changing states of the games straight from cairo instead of doing something from the server cli <br/>
 set up an orcle
 __________________________________________<br/>
