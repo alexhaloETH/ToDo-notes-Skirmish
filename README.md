@@ -109,8 +109,8 @@ https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <
 | 🟢 |Add Util script|    |
 | 🟢 |Add encryption and decryption|    |
 | 🟠 |Add contract 1|    |
-| 🔵 |Add contract 2|    |
-| 🔴 |Add contract 3|    |
+| 🔴 |Add contract 2|    |
+| 🔵 |Add contract 3|    |
 | 🟠 |On contract 1 deduct fee for the contract to keep|    |
 
 
