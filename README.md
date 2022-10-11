@@ -4,9 +4,8 @@
 - - - -
 
 
-
-🟢 --- Done<br/>
 🔴 --- Not done<br/>
+🟢 --- Done<br/>
 🟠 --- Half way done<br/>
 🔵 --- Getting close to finishing<br/><br/>
 
@@ -61,7 +60,18 @@ Contract used to get the data from the realms NFT to the game, data like the Rea
 
 **CONTRACT 3: DATABASE ACCOUNT TROOPS**
 
+
+🟢 done just need to add the table<br/>
+
+
+
 Contract used as onchain database, when the player decideds its team it will be saved on the chain
+
+
+
+
+
+
 
 <br/>
 Additional Notes:  <br/>
@@ -97,10 +107,11 @@ https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <
 | 🟢 |Handle uint256 values|    |
 | 🟢 |Add token to wallet via code|    |
 | 🟢 |Add Util script|    |
-| 🔴 |Add contract 1|    |
-| 🔴 |Add contract 2|    |
+| 🟢 |Add encryption and decryption|    |
+| 🟠 |Add contract 1|    |
+| 🔵 |Add contract 2|    |
 | 🔴 |Add contract 3|    |
-| 🔴 |On contract 1 deduct fee for the contract to keep|    |
+| 🟠 |On contract 1 deduct fee for the contract to keep|    |
 
 
 <br/>
@@ -119,9 +130,10 @@ Other usefull links related to this project:
 | ⚫ |Autoconnect on game startup if server is available | the first scene will be used as a landing page for the game/website so no autoconnect |
 | 🔵 |Offline scene finished|  |
 | 🟢 |Receive address data on connect|  |
-| 🔴 |change from the playerprefs or put ifend regions int he code | the way that saved data is stored in between scenes is not a permanent way, if anything use react backend to store data inbetween scenes |
+| 🟠 |change from the playerprefs or put ifend regions int he code | the way that saved data is stored in between scenes is not a permanent way, if anything use react backend to store data inbetween scenes |
 | 🔵 |Main util script to be accessed from everywhere|  |
 | 🟢 |Check if two of the same players exist in the server if so kick|  |
+| 🟠 |Implement keys used for encryption|    |
 |  ******  | ****** |  ******  |
 | 🟢 |Host game menu section|  |
 | 🟢 |join game menu section|  |
@@ -147,13 +159,13 @@ Other usefull links related to this project:
 | 🔵 |Player is able to make its team and save it to be then used in game| if the player goes back into the deckmenu there are errors, probably issues with references |
 | 🔴 |Receive data from NFT|  |
 | 🔴 |Lobby exists until the original host goes|  |
-| 🔴 |Write data to Database account troops contract|  |
-| 🔴 |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
+| 🔵 |Write data to Database account troops contract|  |
+| ⚫ |Implement a resource folder so every prefab is available there in conjunction with the generalUtil script |  |
 |  ******  | ****** |  ******  |
 | 🔵 |function to update the player ont he server side with the client side data| use the specific targetRPC example to improve on the efficiency of the server calls |
 | 🔴 |divide the game into different states/rounds|  |
 | 🟢 |Fix the names so they show in the lobby|  |
-| 🔴 |Connect the skirmish main contract to the game |  |
+| 🟠 |Connect the skirmish main contract to the game |  |
 | ⚫ |Only allowed to start the game after both players are ready|  |
 | 🔵 |Turn based functionality setup| there but not implemented with the card placing  |
 | 🔵 |Once the game starts send data to server so both clients can communicate| this is implemented but for now only works with a button, should be called at the start of the scene |
