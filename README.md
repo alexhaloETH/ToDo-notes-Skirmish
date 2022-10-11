@@ -43,7 +43,7 @@ Main contract of the game
 | 🟢 |  🟢| GetAcceptedTokenAddress  |   @view    |  Return the Address of the ERC20 token accepted for payments  
 | 🟢 |   🟢  | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 
 | 🟢 |   🔴   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)
-| 🔴 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager
+| 🟢 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager
 <br/>
 
 
