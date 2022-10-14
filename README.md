@@ -30,22 +30,22 @@ Main contract of the game
 
 | Status      | Tested      | Function    | Type        | Description   |     
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| 🟢 |  🟢    | SetTokenAddress  |   @external    |  Set the token address to be payed with
-| 🟢 |  🟢  | SetFee |   @external    |  Set the fee the contract takes when the game ends
-| 🟢 |   🟢   | SetSNSCost  |   @external    |  Set the cost to make an SNS,  times by 10**18
-|  🟢|  🟢   | SetSNS  |   @external    |  Set the SNS of the calling address
-| 🟢 |  🔴 | WithdrawToken  |   @external    | Withdraw tokens from the contract
-| 🟢 |  🔴 | GameLobbyStart  |   @external    |  Function called on the start of the lobby by the "host". pays wager into contract
-| 🟢 |  🔴 | GameLobbyJoin  |   @external    |  Function called by the joiner. pays wager into contract
-| 🟢 |  🔴 | GameOutcome  |   @external    |  Action depending on outcome of the game
-| 🟢 |  🟢   | GetSNSFromAddress  |   @view    |  Given an SNS(felt) return the holder's address. Return 0 if not held
-| 🟢 |   🟢  | GetAddressFromSNS  |   @view    |  Given an Address return the SNS associated. Return 0 if available
-| 🟢 |  🟢| GetAcceptedTokenAddress  |   @view    |  Return the Address of the ERC20 token accepted for payments  
-| 🟢 |   🟢  | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 
-| 🟢 |   🔴   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)
-| 🟢 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager
-| 🔴 |  🔴  | GetClientGameManager  |   @view    |  
-| 🔴 |  🔴  | SetClientGameManager  |   @external    |  
+| 🟢 |  🟢    | SetTokenAddress  |   @external    |  Set the token address to be payed with|
+| 🟢 |  🟢  | SetFee |   @external    |  Set the fee the contract takes when the game ends|
+| 🟢 |   🟢   | SetSNSCost  |   @external    |  Set the cost to make an SNS,  times by 10**18|
+|  🟢|  🟢   | SetSNS  |   @external    |  Set the SNS of the calling address|
+| 🟢 |  🔴 | WithdrawToken  |   @external    | Withdraw tokens from the contract|
+| 🟢 |  🔴 | GameLobbyStart  |   @external    |  Function called on the start of the lobby by the "host". pays wager into contract|
+| 🟢 |  🔴 | GameLobbyJoin  |   @external    |  Function called by the joiner. pays wager into contract|
+| 🟢 |  🔴 | GameOutcome  |   @external    |  Action depending on outcome of the game|
+| 🟢 |  🟢   | GetSNSFromAddress  |   @view    |  Given an SNS(felt) return the holder's address. Return 0 if not held|
+| 🟢 |   🟢  | GetAddressFromSNS  |   @view    |  Given an Address return the SNS associated. Return 0 if available|
+| 🟢 |  🟢| GetAcceptedTokenAddress  |   @view    |  Return the Address of the ERC20 token accepted for payments  |
+| 🟢 |   🟢  | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 |
+| 🟢 |   🔴   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)|
+| 🟢 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager|
+| 🔴 |  🔴  | GetClientGameManager  |   @view    |  |
+| 🔴 |  🔴  | SetClientGameManager  |   @external    |  |
 <br/>
 
 
@@ -57,8 +57,8 @@ Most current deployed test contract: -------- <br/><br/>
 
 | Status      | Tested      | Function    | Type        | Description   |     
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| 🔴 |  🔴    | GetAllRealmsOfAnAddress  |   @view    | 
-| 🔴 |  🔴  | GetAllTroopsOfARealm |   @view    |  
+| 🔴 |  🔴    | GetAllRealmsOfAnAddress  |   @view    | |
+| 🔴 |  🔴  | GetAllTroopsOfARealm |   @view    |  |
 Contract used to get the data from the realms NFT to the game, data like the Realms available and the troops inside and the adventurers available
 Just needs to be implemented into the realms repo 
 
@@ -67,8 +67,8 @@ Just needs to be implemented into the realms repo
 **CONTRACT 3: DATABASE ACCOUNT TROOPS**
 | Status      | Tested      | Function    | Type        | Description   |     
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| 🟢 |  🟢    | SetDeckData  |   @external    | 
-| 🟢 |  🟢  | GetDeckData |   @view    |  
+| 🟢 |  🟢    | SetDeckData  |   @external    | |
+| 🟢 |  🟢  | GetDeckData |   @view    |  |
 
 
 
