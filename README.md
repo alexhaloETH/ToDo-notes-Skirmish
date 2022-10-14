@@ -59,6 +59,7 @@ Most current deployed test contract: -------- <br/><br/>
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 🔴 |  🔴    | GetAllRealmsOfAnAddress  |   @view    | |
 | 🔴 |  🔴  | GetAllTroopsOfARealm |   @view    |  |
+
 Contract used to get the data from the realms NFT to the game, data like the Realms available and the troops inside and the adventurers available
 Just needs to be implemented into the realms repo 
 
@@ -110,7 +111,7 @@ iden3 | Circom<br/>
 | 🟢 |Connect argent wallet|    |
 | 🟣⚫ |Connect braavos wallet|  this is broken and probably wont be implemented in the final stage  |
 | 🟣 |Disconnect wallet voluntarily |  contacted devs and they have opened a ticket  |
-| 🟠 |Turn array from cairo to json to be sent to unity for troops|    |
+| 🔵 |Turn array from cairo to json to be sent to unity for troops|    |
 | 🟢 |Handle view functions|    |
 | 🟢 |Handle uint256 values|    |
 | 🟢 |Add token to wallet via code|    |
