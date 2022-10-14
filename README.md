@@ -55,6 +55,10 @@ Most current deployed test contract: -------- <br/><br/>
 
 **CONTRACT 2: TALK TO REALMS NFT**
 
+| Status      | Tested      | Function    | Type        | Description   |     
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 🔴 |  🔴    | GetAllRealmsOfAnAddress  |   @view    | 
+| 🔴 |  🔴  | GetAllTroopsOfARealm |   @view    |  
 Contract used to get the data from the realms NFT to the game, data like the Realms available and the troops inside and the adventurers available
 Just needs to be implemented into the realms repo 
 
