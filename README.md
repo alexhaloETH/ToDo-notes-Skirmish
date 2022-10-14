@@ -44,24 +44,28 @@ Main contract of the game
 | 🟢 |   🟢  | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 
 | 🟢 |   🔴   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)
 | 🟢 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager
+| 🔴 |  🔴  | GetClientGameManager  |   @view    |  
+| 🔴 |  🔴  | SetClientGameManager  |   @external    |  
 <br/>
 
 
-Most current deployed test contract: 0x05cb11861182a60720b1ed675b45120e3763b70726f6026cf7d0a86efe47e46a<br/><br/>
+Most current deployed test contract: -------- <br/><br/>
 
 
 
 **CONTRACT 2: TALK TO REALMS NFT**
 
 Contract used to get the data from the realms NFT to the game, data like the Realms available and the troops inside and the adventurers available
-
+Just needs to be implemented into the realms repo 
 
 
 
 **CONTRACT 3: DATABASE ACCOUNT TROOPS**
+| Status      | Tested      | Function    | Type        | Description   |     
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 🟢 |  🟢    | SetDeckData  |   @external    | 
+| 🟢 |  🟢  | GetDeckData |   @view    |  
 
-
-🟢 done just need to add the table<br/>
 
 
 
@@ -79,12 +83,14 @@ Need to add all of the owner stuff and the asserts        <br/>
 Look into Account abstraction <br/>
 Look into events      
 look into changing states of the games straight from cairo instead of doing something from the server cli <br/>
-set up an orcle
+LOOK INTO SNARKS INSTEAD OF THE CURRENT WAY OF WINNING THE GAME <br/>
 __________________________________________<br/>
 Other usefull links related to this project:     <br/>
 https://github.com/jrkosinski/crypto-champ   <br/>
        https://github.com/jrkosinski/crypto-champ/blob/master/sports-bets/contracts/SportsBets.sol    <br/>
 https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <br/>
+GitHub - iden3/snarkjs: zkSNARK implementation in JavaScript & WASM<br/>
+iden3 | Circom<br/>
 
 <br/><br/>
 ----------------------------------- REACT BACKEND (Last full code clean up and commenting 24/06/22)----------------------------------------
@@ -106,10 +112,12 @@ https://medium.com/visionary-hub/building-a-sport-betting-dapp-d5f1048ba524    <
 | 🟢 |Add token to wallet via code|    |
 | 🟢 |Add Util script|    |
 | 🟢 |Add encryption and decryption|    |
+| 🟢 |Multicall for the deckDataSet|    |
 | 🟠 |Add contract 1|    |
 | 🔴 |Add contract 2|    |
 | 🔵 |Add contract 3|    |
 | 🟠 |On contract 1 deduct fee for the contract to keep|    |
+| 🔴 |Deploy Website somewhere|  |
 
 
 <br/>
