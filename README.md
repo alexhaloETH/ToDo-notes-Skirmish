@@ -44,6 +44,8 @@ Main contract of the game
 | 🟢 |   🟢  | GetSNSCost  |   @view    |  Get the cost of setting an SNS.  divide by 10**18 |
 | 🟢 |   🔴   | SeeBalanceOfContract  |   @view    |  Get the current balance of the contract  (possibly will be deleted in future)|
 | 🟢 |  🔴  | GameLobbyView  |   @view    |  Given a RoomCode of a current game (felt) return the address of the two players and the wager|
+| 🟢 |   🔴   | GetServerStatus  |   @view    |  |
+| 🟢 |  🔴  | SetServerStatus  |   @external    |  |
 | 🔴 |  🔴  | GetClientGameManager  |   @view    |  |
 | 🔴 |  🔴  | SetClientGameManager  |   @external    |  |
 <br/>
@@ -86,9 +88,10 @@ Contract used as onchain database, when the player decideds its team it will be 
 Additional Notes:  <br/>
 Need to add all of the owner stuff and the asserts        <br/>
 Look into Account abstraction <br/>
-Look into events      
+Look into events     
 look into changing states of the games straight from cairo instead of doing something from the server cli <br/>
-LOOK INTO SNARKS INSTEAD OF THE CURRENT WAY OF WINNING THE GAME <br/>
+LOOK INTO SNARKS INSTEAD OF THE CURRENT WAY OF WINNING THE GAME (most likely STARKs) <br/>
+Find ways to start to transition the server into the chain <br/>
 __________________________________________<br/>
 Other usefull links related to this project:     <br/>
 https://github.com/jrkosinski/crypto-champ   <br/>
