@@ -92,7 +92,8 @@ Look into events
 look into changing states of the games straight from cairo instead of doing something from the server cli <br/>
 LOOK INTO SNARKS INSTEAD OF THE CURRENT WAY OF WINNING THE GAME (most likely STARKs) <br/>
 Find ways to start to transition the server into the chain <br/>
-
+add the possibility (in conjuction with unity) to get back into lobby by looking at the address might need another storage var<br/>
+Possibility of breaking down the contract <br/>
 __________________________________________<br/>
 Other usefull links related to this project:     <br/>
 https://github.com/jrkosinski/crypto-champ   <br/>
