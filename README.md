@@ -92,6 +92,7 @@ Look into events
 look into changing states of the games straight from cairo instead of doing something from the server cli <br/>
 LOOK INTO SNARKS INSTEAD OF THE CURRENT WAY OF WINNING THE GAME (most likely STARKs) <br/>
 Find ways to start to transition the server into the chain <br/>
+
 __________________________________________<br/>
 Other usefull links related to this project:     <br/>
 https://github.com/jrkosinski/crypto-champ   <br/>
@@ -131,7 +132,7 @@ iden3 | Circom<br/>
 <br/>
 Additional Notes:  <br/>
 Open issue on the starknet react github for the braavos wallet <br/>
-
+implement the starknet ID  or look into it<br/>
 Other usefull links related to this project:
 
 
