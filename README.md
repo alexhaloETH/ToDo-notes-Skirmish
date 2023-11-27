@@ -2,7 +2,7 @@
 # Welcome to this GitHub # 
 
 - - - -
-
+Development for this game has been halted
 
 🔴 --- Not done<br/>
 🟢 --- Done<br/>
